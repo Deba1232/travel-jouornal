@@ -1,0 +1,54 @@
+.places{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.places > img{
+    height: 15rem;
+    aspect-ratio: 0.8;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.location{
+    display: flex;
+}
+
+.location > .fa.fa-map-marker{
+    color: #f55a5a;
+    margin-right: 0.4rem;
+}
+
+.location > p{
+    margin-right: 1rem;
+    letter-spacing: 3px;
+}
+
+.location > a{
+    color: #918e9b;
+}
+.location > a:visited{
+    color: #918e9b;
+}
+
+.spot{
+    font-size: 2.5em;
+    margin-top: 0.5rem;
+}
+
+.dates{
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+.description{
+    margin-top: 0.5rem;
+}
