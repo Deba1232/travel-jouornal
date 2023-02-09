@@ -1,2 +1,2 @@
 # travel-journal
-## A travel journal made using React.
+### A travel journal made using React.
